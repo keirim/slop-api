@@ -1,0 +1,4 @@
+uploads/
+sqlite.db
+go.sum
+server
