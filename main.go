@@ -102,11 +102,14 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
 <html>
 <head>
     <title>slop.sh</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #1a1a1a;
             color: #33ff33;
-            font-family: 'Courier New', monospace;
+            font-family: 'League Spartan', monospace;
             line-height: 1.6;
             max-width: 800px;
             margin: 40px auto;
