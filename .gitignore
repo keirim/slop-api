@@ -2,3 +2,4 @@ uploads/
 sqlite.db
 go.sum
 server
+ecosystem.config.json
